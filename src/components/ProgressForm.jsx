@@ -28,8 +28,7 @@ export default function ProgressForm({ onAdd }) {  //onAdd,callback для до�
       <input 
       type="date" 
       value={date} // При зміні записуємо нову дату в state
-      onChange={(e) => setDate(e.target.value)} /> // При зміні записуємо нову дату в state
-
+      onChange={(e) => setDate(e.target.value)} /> 
       <input
         value={weight}
         onChange={(e) => setWeight(e.target.value)} 
